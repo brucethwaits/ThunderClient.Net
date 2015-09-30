@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThunderClient.Net", "ThunderClient.Net\ThunderClient.Net.csproj", "{58AD72F0-D7E4-4311-8FE9-B9E70B5D3AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Test", "Thunder.Test\Thunder.Test.csproj", "{692094A3-FA85-4227-B76F-0BE8922661DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AB2B3B07-4DC9-4280-9BFA-22EE58398689}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58AD72F0-D7E4-4311-8FE9-B9E70B5D3AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AD72F0-D7E4-4311-8FE9-B9E70B5D3AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AD72F0-D7E4-4311-8FE9-B9E70B5D3AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AD72F0-D7E4-4311-8FE9-B9E70B5D3AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692094A3-FA85-4227-B76F-0BE8922661DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692094A3-FA85-4227-B76F-0BE8922661DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692094A3-FA85-4227-B76F-0BE8922661DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692094A3-FA85-4227-B76F-0BE8922661DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
